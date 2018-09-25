@@ -1,0 +1,10 @@
+#img-line{ width:40%;  float:left;}
+#img-line1{ width:30%;  float:right;}
+#img-line2{ width:30%;  float:right;}
+
+.img-line img{ display:inline; padding:0 10px; width:80px;}
+#footer1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

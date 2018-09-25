@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="ism/css/my-slider.css"/>
+<script src="ism/js/ism-2.2.min.js"></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="./favicon.ico">
+
+<title>Dept of CSE</title>
+
+<link href="./dist/img.css" rel="stylesheet" type="text/css" >
+<!-- Bootstrap core CSS -->
+<link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="sticky-footer-navbar.css" rel="stylesheet">
+<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+<!--[if lt IE 9]><script src="./assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<script src="./assets/js/ie-emulation-modes-warning.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);">
+
+<!-- Fixed navbar -->
+<div class="container example5">
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar5">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="http://kluniversity.in"><img style="	height:65px;width: 80px;" src="./logo.png" alt="K L U "><strong>K L University</strong> </a>
+</div>
+<div id="navbar5" class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-right">
+<li class="active"><a href="./index.html">CSE-Home</a></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="1academiccalendar.html"><i>&#9656;</i>  Academic Calender</a></li>
+<li><a href="1academicprograms.html"><i>&#9656;</i>  Academic Programs</a></li>
+<li><a href="1btechcse.html"> <i>&#9656;</i> B.Tech CSE</a></li>
+<li><a href="1mtechcse.html"> <i>&#9656;</i> M.Tech CSE</a></li>
+<li><a href="1mtechcns.html"><i>&#9656;</i>  M.Tech CNS</a></li>
+<li><a href="1mtechcc.html"> <i>&#9656;</i> M.Tech CC</a></li>
+<li><a href="1mtechci.html"><i>&#9656;</i> M.Tech CI</a></li>
+<li><a href="1mtechcsdf.html"><i>&#9656;</i> M.Tech CSDF</a></li>
+<li><a href="1certificatecourse.html"><i>&#9656;</i>  Certificate Course</a></li>
+<li><a href="1collaborations.html"> <i>&#9656;</i> Collaborations</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Faculty <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="2facultylist.html"><i>&#9656;</i>  Faculty List</a></li>
+<li><a href="2phd.html"><i>&#9656;</i>  Ph.D Holders</a></li>
+<li><a href="2visitingforeignfaculty.html"><i>&#9656;</i> Visiting Foreign Faculty</a></li>
+<li><a href="2awards.html"><i>&#9656;</i>  Awards & Recognition</a></li>
+<li><a href="2sponsoredprojects.html"><i>&#9656;</i>  Sponsored Projects</a></li>
+<li><a href="2facultydevelopementprogram.html"><i>&#9656;</i>  Faculty Development Programs</a></li>
+
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Infrastructure <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="5departmentlibrary.html"><i>&#9656;</i>  Department Library</a></li>
+<li><a href="5industrycollaborationlabs.html"><i>&#9656;</i>  Industry Collaborations Labs</a></li>
+<li><a href="5academiclabs.html"><i>&#9656;</i>  Academiv Labs</a></li>
+<li><a href="5softwaresavailable.html"><i>&#9656;</i>  Softwares Available</a></li>
+<li><a href="5datacenter.html"><i>&#9656;</i> Data Center</a></li>
+
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Student Progression <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="3placements.html"><i>&#9656;</i> Placements</a></li>
+<li><a href="3higherstudies.html"><i>&#9656;</i> Higher Studies</a></li>
+<li><a href="3practiseschool.html"><i>&#9656;</i>  Practise School</a></li>
+<li><a href="3sportsachievements.html"><i>&#9656;</i>  Sports Achievements</a></li>
+<li><a href="3alumni.html"><i>&#9656;</i>  Alumni</a></li>
+<li class="divider"></li>
+<li class="dropdown-header"><strong>Current Students</strong></li>
+<li><a href="https://www.kluniversity.in/es.aspx?id=10001" target="_blank"><i>&#9656;</i>  Results</a></li>
+<li><a href="3termpaper.html"><i>&#9656;</i>  Term Paper</a></li>
+
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span >&#9662;</span></a>
+<ul class="dropdown-menu ">
+<li><a href="4academicresearcchprograms.html"><i>&#9656;</i>  Academic Research Programs</a></li>
+
+<li><a href="4researchgroups.html"><i>&#9656;</i>  Research Groups</a></li>
+<li><a href="4rpac.html"><i>&#9656;</i> RPAC</a></li>
+<li><a href="4rpacchairman.html"><i>&#9656;</i> RPAC Chairman Profile</a></li>
+<li><a href="4researchnews.html"><i>&#9656;</i>  Research News</a></li>
+<li><a href="4researchlabs.html"><i>&#9656;</i> Research Labs</a></li>
+<li><a href="4researchpublications.html"><i>&#9656;</i>  Research Publications</a></li>
+<li><a href="4researchareas.html"><i>&#9656;</i>  Research Areas</a></li>
+
+<li><a href="4journalreview.html"><i>&#9656;</i>  Journal Reviewers</a></li>
+<li><a href="4internationalconference.html"><i>&#9656;</i>  International Conference</a></li>
+<li><a href="4patent.html"><i>&#9656;</i>  Patent</a></li>
+
+<li><a href="./pdf/2133.pdf" target="_blank"><i>&#9656;</i> Pre Ph.D Subjects & Syllabus</a></li>
+<li><a href="4shortlistedjournals.html"><i>&#9656;</i> Shortlisted Journals</a></li>
+<li><a href="4shortlistedconferences.html"><i>&#9656;</i> Shortlisted Conferences</a></li>
+
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activities <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="6nss.html"><i>&#9656;</i>  NSS</a></li>
+<li><a href="6ignite.html"><i>&#9656;</i>  Ignite</a></li>
+<li><a href="http://www.klusamyak.in" target="_blank"><i>&#9656;</i>  Samyak</a></li>
+<li><a href="6nemisis.html"><i>&#9656;</i>  NEMSIS</a></li>
+<li><a href="6workshopsorganized.html"><i>&#9656;</i>  Workshops Organized</a></li>
+<li><a href="http://kluniversity.in/cse/focus/Focus%20Home.html" target="_blank"><i>&#9656;</i>  FOCUS Activities</a></li>
+<li><a href="6klucsiactivities.html"><i>&#9656;</i>  KLU CSI Activities</a></li>
+<li><a href="6ceaactivities.html"><i>&#9656;</i> CEA Activites</a></li>
+<li><a href="http://kluniversity.in/kluso/" target="_blank"><i>&#9656;</i>  KLUSO</a></li>
+<li><a href="6webinar.html"><i>&#9656;</i>  Webinar</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="7aboutus.html"><i>&#9656;</i> About Us </a></li>
+<li><a href="7visionandmission.html"><i>&#9656;</i> Vision & Mission</a></li>
+<!--<li><a href="7programeducationalobjectives.html"><i>&#9656;</i>  Program Educational Objectives</a></li>
+<li><a href="7programoutcomes.html"><i>&#9656;</i>  Program Outcomes</a></li>-->
+<li><a href="7headofdepartment.html"><i>&#9656;</i>  Head of Department</a></li>
+<li class="divider"></li>
+<li class="dropdown-header"><strong>Governance</strong></li>
+<li><a href="7boardofstudies.html"><i>&#9656;</i>  Board of Studies</a></li>
+<li><a href="7rpacbody.html"><i>&#9656;</i>  RPAC Body</a></li>
+<li><a href="7rpacchairmanprofile.html"><i>&#9656;</i>  RPAC Chairman Profile</a></li>
+<li><a href="7academicyearcoordinates.html"><i>&#9656;</i>  Academic Year Coordinates</a></li>
+<li><a href="7coursecoordinates.html"><i>&#9656;</i>  Course Coordinates</a></li>
+<li><a href="pdf/dc1.pdf" target="_blank"><i>&#9656;</i>  Department Level Committees</a></li>
+<li><a href="7organizationstructure.html"><i>&#9656;</i> Organization Structure</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<!--/.nav-collapse -->
+</div>
+<!--/.container-fluid -->
+</nav>
+
+</div>
+
+<center><P style="background-color: #a12d33;font-size:16px;color:white;"><b>Department of Computer Science & Engineering (DST-FIST Sponsored Department)</b></p></center>
+
+
+
+
+<div class="ism-slider" data-play_type="loop" data-interval="3000" data-buttons="false" data-radios="false" id="my-slider">
+<ol>
+<li>
+<img src="ism/image/slides/_u/1489677579884_940941.jpg">
+</li>
+<li>
+<img src="ism/image/slides/_u/1489677577962_703952.jpg">
+</li>
+<li>
+<img src="ism/image/slides/_u/1489677573768_578905.jpg">
+</li>
+<li>
+<img src="ism/image/slides/_u/1489677569201_787165.jpg">
+</li>
+<li>
+<img src="ism/image/slides/_u/1489677567877_654790.jpg">
+</li>
+</ol>
+</div>
+<!-- Begin page content -->
+<div class="container">
+<div style="margin-left:20px;margin-right:0px;">
+
+
+<div class="page-header">
+<h3>Workshops Organised </h3>
+</div>
+<div class="col-md-9 cnt-fnt">
+
+
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+<li class="active"><a href="#201617" role="tab" data-toggle="tab">2016-17</a></li>
+<li><a href="#201516" role="tab" data-toggle="tab">2015-16</a></li>
+<li><a href="#201415" role="tab" data-toggle="tab">2014-15</a></li>
+<li><a href="#201314" role="tab" data-toggle="tab">2013-14</a></li>
+<li><a href="#201213" role="tab" data-toggle="tab">2012-13</a></li>
+<li><a href="#201112" role="tab" data-toggle="tab">2011-12</a></li>
+<li><a href="#201011" role="tab" data-toggle="tab">2010-11</a></li>
+<li><a href="#200910" role="tab" data-toggle="tab">2009-10</a></li>
+
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+<div class="tab-pane active" id="201617">
+<br /><br />
+<font color="black"><p style="font-size:20px; font-style: normal">List of Workshops/Guest Lectures/Seminars Conducted for the A.Y. 2016-2017</font>
+<table class="table  table-bordered table-striped table-hover">
+<tr align="center">
+<td><strong>SNO</strong></td>
+<td><strong>Title of the Seminar/Workshop/Guest Lecture</strong></td>
+<td><strong>Date Conducted</strong></td>
+<td><strong>Organization that conducted the event</strong></td>
+<td><strong>Name of the speaker</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Evolution of IT Architectures</td>
+<td>30.09.2016</td>
+<td>Knowledge Engineering Research Group</td>
+<td>Mr. G Ravi Kumar, Expert Technologist, Hewielt Packard Enterprise 
+Product R &amp; D, Bangalore</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Model Driven Development</td>
+<td>16.09.2016</td>
+<td>Organized by SEA Club, Sponsored by DST</td>
+<td>Dr. Y Raghu Reddy, Assoicate Professor &amp; Head Software Engineering 
+Research Centre, IIIT, Hyderabad</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Model Driven Development</td>
+<td>16.09.2016 &amp; 17.09.2016</td>
+<td>Organized by SEA Club, Sponsored by DST</td>
+<td>Ms. G Manjusha, Solution Architect, Tech Mahendra</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Model Driven Development</td>
+<td>16.09.2016 &amp; 17.09.2016</td>
+<td>Organized by SEA Club, Sponsored by DST</td>
+<td>Mr. K Srinivas Rao, Principal Solution Architect, Tech Mahendra</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Network Security</td>
+<td>20.10.2016</td>
+<td>NSF Research Group</td>
+<td>Dr. Rashmi Ranjan Rout, Assistant Professor,NIT, Warangal</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Bit coins &amp; Black Chains Technology</td>
+<td>24.10.2016</td>
+<td>NSF Research Group</td>
+<td>Mr. Anil Kumar, Founder, ESF Labs &amp; Team</td>
+</tr>
+<tr>
+<td>7</td>
+<td>IOT</td>
+<td>28.10.2016</td>
+<td>IOT Research Group</td>
+<td>Mr. G Mangesh, B. Krishna Chaitanya, Mr. Ch. Yuktesh, IBM</td>
+</tr>
+
+</table>
+</div>
+
+<div class="tab-pane" id="201516">
+
+<font color="black"><p style="font-size:20px; font-style: normal">List of Workshops/Guest Lectures/Seminars Conducted for the A.Y. 2015-2016</font>
+<table class="table  table-bordered table-striped table-hover">
+<tr align="center">
+<td><strong>SNO</strong></td>
+<td><strong>Title of the Seminar/Workshop/Guest Lecture</strong></td>
+<td><strong>Date Conducted</strong></td>
+<td><strong>Organization that conducted the event</strong></td>
+<td><strong>Name of the speaker</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>A Guest Lecture on Towards an Ecosystem of usable Refactoring 
+Tools</td>
+<td>2/9/2015</td>
+<td>Software Engineering Research GroupFor 3<sup>rd</sup> Year</td>
+<td>Dr. Y Raghu Reddy, Assoc.Professor, IIIt, Hyderabad</td>
+</tr>
+<tr>
+<td>2</td>
+<td>A Guest Lecture on “The Theme of DBA roles and 
+responsibilities by using Oracle Apps</td>
+<td>21/9/2015</td>
+<td>Dept. of CSE For 2<sup>nd</sup> &amp; 3<sup>rd</sup> Years</td>
+<td>Mr. Pathan Dariya Hussain, Tech. Lead, Infosys</td>
+</tr>
+<tr>
+<td>3</td>
+<td>A Guest Lecture on “Values and Morals in Governance”</td>
+<td>16/10/2015</td>
+<td>Dept. of CSEFor 3<sup>rd</sup> Year</td>
+<td>Sri K. Bala Subrahamanyam, Sri B.Viswanadh Eerya, SC Railways, Sec’Bad</td>
+</tr>
+<tr>
+<td>4</td>
+<td>A Guest Lecture on “Recent Trends in Data Mining 
+Technologies”</td>
+<td>30/10/2015</td>
+<td>Knowledge Engineering Research GroupFor 4<sup>th</sup> Year</td>
+<td>Dr. R.B.V. Subrahmanyam, Assoc.Professor, NIT, Warangal 
+</td>
+</tr>
+
+
+</table>
+</div>
+<div class="tab-pane" id="201415">
+
+<font color="black"><p style="font-size:20px; font-style: normal">List of Workshops/Guest Lectures/Seminars Conducted for the A.Y. 2014-2015</font>
+<table class="table  table-bordered table-striped table-hover">
+<tr align="center">
+<td><strong>S.NO</strong></td>
+<td><strong>DATE</strong></td>
+<td><strong>EVENT</strong></td>
+<td><strong>Resource Person</strong></td>
+<td><strong>Participants</strong></td>
+
+</tr>
+<tr>
+<td>1</td>
+<td>17.07.14</td>
+<td>Work shop on IBM Blue mix</td>
+<td>Mr.Ch.Yuktesh, IT Specialist, IBM, Hyderabad.</td>
+<td>3<sup>rd</sup> &amp; 4<sup>th</sup> Year B.Tech students and 
+Staff</td>
+
+</tr>
+<tr>
+<td>2</td>
+<td>21.07.14</td>
+<td>Orientation Program on Current Technologies</td>
+<td>Dr. Srinivas Jonnalagadd and others from Siri IT Innovations 
+Pvt.Ltd, Hyd.</td>
+<td>3<sup>rd</sup> year B Tech students </td>
+
+</tr>
+<tr>
+<td>3</td>
+<td>01.08.14</td>
+<td>Guest Lecture on Mobile Computing and MS Program in US</td>
+<td>Prof. Nelakuditi Sri Hari, Professor and Graduate Director, 
+University of South Carolina, Columbia, SC 29208 
+</td>
+<td>Final Year B.Tech Students</td>
+
+</tr>
+<tr>
+<td>4</td>
+<td>11.08.14</td>
+<td>Guest Lecture on C-Programming concepts </td>
+<td>Mr.S.MuniReddy, Sr.Manager, IBM-Labs, Bangalore</td>
+<td>3<sup>rd</sup> Year B. Tech Students</td>
+
+</tr>
+<tr>
+<td>5</td>
+<td>11.08.14</td>
+<td>Guest Lecture on “Innovations in Processor Architecture”.</td>
+<td>Dr. Madhu Mutyam, Asst. Professor, IIT, Madras and Alumni of 
+KLCE</td>
+<td>4<sup>th</sup> year B.Tech students and CSE faculty</td>
+
+</tr>
+<tr>
+<td>6</td>
+<td>17.10.14</td>
+<td>Interaction session on “Outreach”</td>
+<td>Dr. M.Rama Subba Reddy, Professor and Dr. P. Ramakrishna, 
+Asst.Professor, IIT-Madras, Chennai</td>
+<td>4<sup>th</sup> Year B.Tech students across all Branches of 
+KLU</td>
+
+</tr>
+<tr>
+<td>7</td>
+<td>03.11.14</td>
+<td>Guest Lecture on “Trends and Opportunities”</td>
+<td>Dr. Prahlada Rao B B, Joint Director, C-DAC, Banglore</td>
+<td>4<sup>th</sup> Year B.Tech. Students and 1<sup>st</sup> Year 
+M.Tech Students</td>
+
+</tr>
+<tr>
+<td>8</td>
+<td>07.12.14</td>
+<td>Course based workshop on “Virtualization in Cloud Computing”</td>
+<td>Sri S. Munireddy, Sr. Manager, IBM Labs, Banglore</td>
+<td>M.Tech CSE students of all sections</td>
+
+</tr>
+<tr>
+<td>9</td>
+<td>21.01.15&amp;22.01.15</td>
+<td>Job Opportunities in the IT industry and career building in 
+Knowledge Management</td>
+<td>Mr. Ravi Kiran, Director of Knowledge Management, SAP labs, 
+Banglore</td>
+<td>B.Tech 3<sup>rd</sup> year students</td>
+
+</tr>
+<tr>
+<td>10</td>
+<td>20.02.15</td>
+<td>Mobile Application Development based on 
+Crowd Sourcing Model and Wireless Sensor Networks for Mobile Health Care</td>
+<td>Dr. Siba Kumar Udgata, Professor, School of Computer and 
+Information Sciences, University of Hyderabad</td>
+<td>2<sup>nd</sup> Year, 3<sup>rd</sup> Year and Final Year B. 
+Tech students </td>
+
+</tr>
+<tr>
+<td>11</td>
+<td>18.03.15</td>
+<td>A Workshop on IBM Blue mix tool</td>
+<td>Mr. Ch. Yuktesh, IT Specialist, IBM</td>
+<td>3<sup>rd</sup> Year B.Tech CSE and ECM studetns</td>
+
+</tr>
+<tr>
+<td>12</td>
+<td>18.03.15</td>
+<td>A workshop on Software Process Improvement through CMMI 
+</td>
+<td>Mr. K. Srinivasa Rao, Principal Solution Architect in Tech. 
+Mahindra, Hyderabad</td>
+<td>3<sup>rd</sup> Year B.Tech students</td>
+
+</tr>
+<tr>
+<td>13</td>
+<td>20.03.15</td>
+<td>A Guest Lecture on Mobile Communications</td>
+<td>Mr. Darsi Srinivasa Rao, Technical Architect, Tech. Mahinda, 
+Hyderabad.</td>
+<td>M.Tech. CNS students</td>
+
+</tr>
+<tr>
+<td>14</td>
+<td>27.03.15</td>
+<td>A Guest Lecture on Cloud Services</td>
+<td>Mr. Muni Sekhar Reddy, Sr. Engineer, IBM, Banglore</td>
+<td>M.Tech Cloud Computing Students and all the students of CC 
+Research Group</td>
+
+</tr>
+<tr>
+<td>15</td>
+<td>27.03.15</td>
+<td>A Orientation Program on Flexibility Options in K L 
+University</td>
+<td>Prof. N. Venkatram, Dean Academics, KLU</td>
+<td>For All 2<sup>nd</sup> B.Tech students</td>
+
+</tr>
+
+<tr>
+<td>16</td>
+<td>14.04.15</td>
+<td>Guest Lecture on “NOSQL Databases &amp; Big Data Analytics” 
+<o:p></o:p></td>
+<td>- Dr.D.V.L.N Somayajulu</td>
+<td>For 3rd B.Tech students</td>
+
+</tr>
+</table>
+</div>
+<div class="tab-pane" id="201314">
+
+<font color="black"><p style="font-size:20px; font-style: normal">List of Workshops/Guest Lectures/Seminars Conducted for the A.Y. 2013-2014</font>
+<table class="table  table-bordered table-striped table-hover">
+<tr align="center">
+<td><strong>S.NO</strong></td>
+<td><strong>Name of the GL/SEM/WS</strong></td>
+<td><strong>Date</strong></td>
+<td><strong>Venue</strong></td>
+<td><strong>Resource Person</strong></td>
+<td><strong>No. of participants</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>AICTE Workshop on Research Methodology</td>
+<td>15-5-2013</td>
+<td>Jasmine Hall</td>
+<td>Dr.K.Subramanyam Prof.P.s.AvadhaniProf. A.V.Dattateya Rao and Prof.R.R.L.Kantam</td>
+<td>180</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Workshop on Network Security Analysis</td>
+<td>17-5-2013</td>
+<td>Rose Hall</td>
+<td>Prof. P.S.Avadhani</td>
+<td>50</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Guest Lecture on Developing and using Cloud Applications with .Net 
+framework</td>
+<td>30-8-2013</td>
+<td>C521</td>
+<td>Mr. Pratap. K and his tem members from Microsoft</td>
+<td>For all IV/IV B.Tech CSE Students</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Guest lecture on Industrial applications using machine vision augmented 
+reality </td>
+<td>23-12-2013</td>
+<td>Peacock Hall</td>
+<td>Dr. P. Bhanu Prasad, Germany</td>
+<td>200</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Guest Lecture on Reduced Memory, low complexity embedded image compression 
+algorithm using hierarchical listless DTT </td>
+<td>30-12-2013</td>
+<td>C521</td>
+<td>Dr.A.S.C.S. SASTRY, HOD, ECE</td>
+<td>150</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Guest Lecture on Cloud Computing</td>
+<td>30-12-2013</td>
+<td>Peacock Hall</td>
+<td>Sri M. Muni Reddy, Manager, IBM Software Labs, Banglore</td>
+<td>200</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Guest Lecture on Big Data Analytics</td>
+<td>20-1-2014</td>
+<td>Peacock Hall</td>
+<td>Prof. Sumanth Kumar</td>
+<td>150</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Guest Lecture on Software Project and Software Management</td>
+<td>24-1-2014</td>
+<td>Peacock Hall</td>
+<td>Sri Y. Ganesh, Founder of HSL</td>
+<td>100</td>
+</tr>
+</table>
+</div>
+<div class="tab-pane" id="201213">
+<font color="black"><p style="font-size:20px; font-style: normal">List of Workshops/Guest Lectures/Seminars Conducted for the A.Y. 2012-2013</font>
+<table class="table  table-bordered table-striped table-hover">
+<tr align="center">
+<td><strong>S.NO</strong></td>
+<td><strong>Name of the GL/SEM/WS</strong></td>
+<td><strong>Date</strong></td>
+<td><strong>Venue</strong></td>
+<td><strong>Resource Person</strong></td>
+<td><strong>No. of participants</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Guest Lecture on Semantic Web</td>
+<td>6-4-2013</td>
+<td>Peacock Hall</td>
+<td>Sri B. Srivastav</td>
+<td>300</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Workshop on APP-FEST</td>
+<td>21-3-2013</td>
+<td>Microsoft Innovation Centre</td>
+<td>Microsoft Personnel</td>
+<td>150</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Workshop on CSI-Funquiz-2013</td>
+<td>9-2-2013</td>
+<td>New Seminar Hall</td>
+<td>Prof. P. Trimurthy</td>
+<td>200</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Seminar on Requirement Engineering</td>
+<td>16-2-2013</td>
+<td>Jasmine Hall</td>
+<td>Mr. Batia, TCS</td>
+<td>100</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Guest Lecture on Ethical Hacking</td>
+<td>26-3-2013</td>
+<td>Peacock Hall</td>
+<td>Mr. Ankit Fadia</td>
+<td>350</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Workshop on Research Methodologies</td>
+<td>13-8-2012 to 18-8-2012</td>
+<td>M325</td>
+<td>Dr. K. Subrahmanyam</td>
+<td>20</td>
+</tr>
+
+
+
+</table>
+</div>
+<div class="tab-pane" id="201112">
+<font color="black"><p style="font-size:20px; font-style: normal">List of Workshops/Guest Lectures/Seminars Conducted for the A.Y. 2011-2012</font>
+<table class="table  table-bordered table-striped table-hover">    
+<tr align="center">
+<td><strong>S.NO</strong></td>
+<td><strong>Name of the GL/SEM/WS</strong></td>
+<td><strong>Date</strong></td>
+<td><strong>Venue</strong></td>
+<td><strong>Resource Person</strong></td>
+<td><strong>No.of participants</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Seminar on Cryptography and Web Security</td>
+<td>27-8-2012 to 31-8-2012</td>
+<td>Peacock Hall</td>
+<td>Dr. Daniel</td>
+<td>416</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Guest Lecture on Entrepreneurship Development Programs 
+</td>
+<td>1-2-2012</td>
+<td>Jasmine Hall</td>
+<td>Mr. N.T. Naidu</td>
+<td>132</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Workshop on Information on Microsoft new Technologies</td>
+<td>28-9-2012</td>
+<td>New Seminar Hall</td>
+<td>Mr. P. Indraneil and Guptha</td>
+<td>300</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Seminar on STEP ( Student Enhancement Program)</td>
+<td>26-9-2012</td>
+<td>Peacock Hall</td>
+<td>Ms. Sandhya Kode</td>
+<td>250</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Workshop on Robotics </td>
+<td>3-8-2012</td>
+<td>New Seminar Hall</td>
+<td>MrG. Lakshmi Vara Prasad</td>
+<td>72</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Workshop on Quality Service to Students for Higher Education and Career 
+Development on HM CAT Coaching</td>
+<td>14-7-2011</td>
+<td>C525</td>
+<td>Mr. V.V.Kishore Kumar</td>
+<td>24</td>
+</tr>
+
+</table>           
+
+
+</div>
+<div class="tab-pane" id="201011">
+<font color="black"><p style="font-size:20px; font-style: normal">List of Workshops/Guest Lectures/Seminars Conducted for the A.Y. 2010-2011</font>
+<table class="table  table-bordered table-striped table-hover"> 
+<tr align="center">
+<td><strong>S.NO</strong></td>
+<td><strong>Name of the GL/SEM/WS</strong></td>
+<td><strong>Date</strong></td>
+<td><strong>Venue</strong></td>
+<td><strong>Resource Person</strong></td>
+<td><strong>No.of participants</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Seminar on Employability</td>
+<td>19-3-2011</td>
+<td>Peacock Hall</td>
+<td>Mr.K. Raju</td>
+<td>9</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Workshop on Agile Serum Software Methodology</td>
+<td>19-3-2011</td>
+<td>Peacock Hall</td>
+<td>MrDandpani Prasad</td>
+<td>14</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Seminar on Enhancing Employability</td>
+<td>19-3-2011</td>
+<td>Peacock Hall</td>
+<td>Wd.Cdr. M.Murugesan</td>
+<td>25</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Seminar on Personality Development and Software Skills</td>
+<td>18-3-2011</td>
+<td>Peacock Hall</td>
+<td>Prof. Ananda Rao</td>
+<td>25</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Workshop on Market Opportunities</td>
+<td>18-3-2011</td>
+<td>Peacock Hall</td>
+<td>Mr. T. Sabha Pathy</td>
+<td>22</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Workshop on Android Software</td>
+<td>17-3-2011</td>
+<td>Peacock Hall</td>
+<td>Mr. Suman Kumar</td>
+<td>22</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Guest Lecture on Pattern Analysis for Content-Based information Retrieval 
+</td>
+<td>19-2-2011</td>
+<td>Sunflower Hall</td>
+<td>Prof. C. Chandra Sekhar</td>
+<td>24</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Workshop on Fire and Safety Awareness</td>
+<td>10-2-2011</td>
+<td>M209</td>
+<td>Mr.Jhonson</td>
+<td>26</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Seminar on Project Management and Career Development</td>
+<td>20-12-2010</td>
+<td>Peacock Hall</td>
+<td>Dr. V. Siva Rama Krishnaiah</td>
+<td>34</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Seminar on Career Opportunities</td>
+<td>28-8-2010</td>
+<td>Jasmine Hall</td>
+<td>Prof. Narasimha</td>
+<td>32</td>
+</tr>
+
+
+</table>
+</div>
+
+<div class="tab-pane" id="200910">
+<font color="black"><p style="font-size:20px; font-style: normal">List of Workshops/Guest Lectures/Seminars Conducted for the A.Y. 2009-2010</font>
+<table class="table  table-bordered table-striped table-hover">  
+<tr>
+<td><strong>S.NO</strong></td>
+<td><strong>Name of the GL/SEM/WS</strong></td>
+<td><strong>Date</strong></td>
+<td><strong>Venue</strong></td>
+<td><strong>Resource Person</strong></td>
+<td><strong>No. of participants</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Guest Lecture on Cloud Computing Service Oriented Architecture</td>
+<td>20-3-2010</td>
+<td>Peacock Hall</td>
+<td>Prof. Himanshu Goyal</td>
+<td>94</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Introduction to Erwin</td>
+<td>20-3-2010</td>
+<td>Peacock Hall</td>
+<td>Dr. Sekhar Muddana</td>
+<td>28</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Workshop on DB2</td>
+<td>21-1-2010</td>
+<td>IBM Lab</td>
+<td>Mr. Vikas Manoria</td>
+<td>49</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Workshop on Personality Development</td>
+<td>10-10-2009</td>
+<td>Peacock Hall</td>
+<td>Prof. Krishna Kishore</td>
+<td>26</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Workshop on How to do Research</td>
+<td>18-9-2009</td>
+<td>Peacock Hall</td>
+<td>Dr. P. Trimurthy</td>
+<td>26</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Workshop on DB2</td>
+<td>22-8-2009</td>
+<td>IBM Lab</td>
+<td>Mr. Mouri Kumar</td>
+<td>25</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Internship program by IBM</td>
+<td>11-7-2009</td>
+<td>Peacock Hall</td>
+<td>Mr. Muni S. Reddy, Manager, IBM Labs, Benglore</td>
+<td>28</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Workshop on Live Real-Time Project in Virtual Industry</td>
+<td>29-7-2009</td>
+<td>New Seminar Hall</td>
+<td>Prof. Atin</td>
+<td>26<o:p>&nbsp;</o:p></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Guest Lecture on Informatica for Data Warehousing</td>
+<td>2-7-2009</td>
+<td>New Seminar Hall</td>
+<td>Prof. Ch. Srinivas</td>
+<td>20</td>
+</tr>
+</table>          
+</div>
+</div>
+</div>
+</div>
+
+<div style="height:100px">
+</div>
+
+
+
+<div id="footer1">
+<center><p style="background-color: #a12d33;font-size:16px;color:white;"><a style="color:white" target="_blank"href="http://yaswanthreddy.tech/">&copy;</a> 2017 Copyright Reserved by<b> <a style="color:white" href="http://www.kluniversity.in">K L University</a></b> </p> 
+</center>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="./dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+<script type='text/javascript'>
+var isCtrl = false;
+document.onkeyup=function(e)
+{
+    if(e.which == 17)
+    isCtrl=false;
+}
+document.onkeydown=function(e)
+{
+    if(e.which == 17)
+    isCtrl=true;
+    if((e.which == 85) || (e.which == 67) && (isCtrl == true))
+    {
+        return false;
+    }
+}
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+    return false;
+}
+function mousehandler(e){
+    var myevent = (isNS) ? e : event;
+    var eventbutton = (isNS) ? myevent.which : myevent.button;
+    if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+</script>
+<script language="JavaScript">
+        function disableCtrlKeyCombination(e)
+        {
+                //list all CTRL + key combinations you want to disable
+                var forbiddenKeys = new Array("a", "s", "c");
+                var key;
+                var isCtrl;
+
+                if(window.event)
+                {
+                        key = window.event.keyCode;     //IE
+                        if(window.event.ctrlKey)
+                                isCtrl = true;
+                        else
+                                isCtrl = false;
+                }
+                else
+                {
+                        key = e.which;     //firefox
+                        if(e.ctrlKey)
+                                isCtrl = true;
+                        else
+                                isCtrl = false;
+                }
+
+                //if ctrl is pressed check if other key is in forbidenKeys array
+                if(isCtrl)
+                {
+                    for (i = 0; i < forbiddenKeys.length; i++)
+                        {
+                                //case-insensitive comparation
+                            if (forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
+                                {
+//                                    alert("Key combination CTRL + "
+//                                                + String.fromCharCode(key)
+//                                                + " has been disabled.");                                    
+                                        return false;
+                                }
+                        }
+                }
+                return true;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="ism/css/my-slider.css"/>
+<script src="ism/js/ism-2.2.min.js"></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="./favicon.ico">
+
+<title>Dept of CSE</title>
+<link href="./dist/img.css" rel="stylesheet" type="text/css" >
+<link href="./dist/img.css" rel="stylesheet" type="text/css" >
+<!-- Bootstrap core CSS -->
+<link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="sticky-footer-navbar.css" rel="stylesheet">
+<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+<!--[if lt IE 9]><script src="./assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<script src="./assets/js/ie-emulation-modes-warning.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);">
+
+<!-- Fixed navbar -->
+<div class="container example5">
+<nav class="navbar navbar-default navbar-fixed-top">
+
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar5">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+
+<a class="navbar-brand" href="http://kluniversity.in"><img style="	height:65px;width: 80px;" src="./logo.png" alt="K L U "><strong>K L University</strong> </a>
+</div>
+<div id="navbar5" class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-right">
+<li class="active"><a href="./index.html">CSE-Home</a></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="1academiccalendar.html"><i>&#9656;</i>  Academic Calender</a></li>
+<li><a href="1academicprograms.html"><i>&#9656;</i>  Academic Programs</a></li>
+<li><a href="1btechcse.html"> <i>&#9656;</i> B.Tech CSE</a></li>
+<li><a href="1mtechcse.html"> <i>&#9656;</i> M.Tech CSE</a></li>
+<li><a href="1mtechcns.html"><i>&#9656;</i>  M.Tech CNS</a></li>
+<li><a href="1mtechcc.html"> <i>&#9656;</i> M.Tech CC</a></li>
+<li><a href="1mtechci.html"><i>&#9656;</i> M.Tech CI</a></li>
+<li><a href="1mtechcsdf.html"><i>&#9656;</i> M.Tech CSDF</a></li>
+<li><a href="1certificatecourse.html"><i>&#9656;</i>  Certificate Course</a></li>
+<li><a href="1collaborations.html"> <i>&#9656;</i> Collaborations</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Faculty <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="2facultylist.html"><i>&#9656;</i>  Faculty List</a></li>
+<li><a href="2phd.html"><i>&#9656;</i>  Ph.D Holders</a></li>
+<li><a href="2visitingforeignfaculty.html"><i>&#9656;</i> Visiting Foreign Faculty</a></li>
+<li><a href="2awards.html"><i>&#9656;</i>  Awards & Recognition</a></li>
+<li><a href="2sponsoredprojects.html"><i>&#9656;</i>  Sponsored Projects</a></li>
+<li><a href="2facultydevelopementprogram.html"><i>&#9656;</i>  Faculty Development Programs</a></li>
+
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Infrastructure <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="5departmentlibrary.html"><i>&#9656;</i>  Department Library</a></li>
+<li><a href="5industrycollaborationlabs.html"><i>&#9656;</i>  Industry Collaborations Labs</a></li>
+<li><a href="5academiclabs.html"><i>&#9656;</i>  Academiv Labs</a></li>
+<li><a href="5softwaresavailable.html"><i>&#9656;</i>  Softwares Available</a></li>
+<li><a href="5datacenter.html"><i>&#9656;</i> Data Center</a></li>
+
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Student Progression <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="3placements.html"><i>&#9656;</i> Placements</a></li>
+<li><a href="3higherstudies.html"><i>&#9656;</i> Higher Studies</a></li>
+<li><a href="3practiseschool.html"><i>&#9656;</i>  Practise School</a></li>
+<li><a href="3sportsachievements.html"><i>&#9656;</i>  Sports Achievements</a></li>
+<li><a href="3alumni.html"><i>&#9656;</i>  Alumni</a></li>
+<li class="divider"></li>
+<li class="dropdown-header"><strong>Current Students</strong></li>
+<li><a href="http://www.kluniversity.in/es.aspx?id=10001" target="_blank"><i>&#9656;</i>  Results</a></li>
+<li><a href="3termpaper.html"><i>&#9656;</i>  Term Paper</a></li>
+
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span >&#9662;</span></a>
+<ul class="dropdown-menu ">
+<li><a href="4academicresearcchprograms.html"><i>&#9656;</i>  Academic Research Programs</a></li>
+
+<li><a href="4researchgroups.html"><i>&#9656;</i>  Research Groups</a></li>
+<li><a href="4rpac.html"><i>&#9656;</i> RPAC</a></li>
+<li><a href="4rpacchairman.html"><i>&#9656;</i> RPAC Chairman Profile</a></li>
+<li><a href="4researchnews.html"><i>&#9656;</i>  Research News</a></li>
+<li><a href="4researchlabs.html"><i>&#9656;</i> Research Labs</a></li>
+<li><a href="4researchpublications.html"><i>&#9656;</i>  Research Publications</a></li>
+<li><a href="4researchareas.html"><i>&#9656;</i>  Research Areas</a></li>
+
+<li><a href="4journalreview.html"><i>&#9656;</i>  Journal Reviewers</a></li>
+<li><a href="4internationalconference.html"><i>&#9656;</i>  International Conference</a></li>
+<li><a href="4patent.html"><i>&#9656;</i>  Patent</a></li>
+
+<li><a href="./pdf/2133.pdf" target="_blank"><i>&#9656;</i> Pre Ph.D Subjects & Syllabus</a></li>
+<li><a href="4shortlistedjournals.html"><i>&#9656;</i> Shortlisted Journals</a></li>
+<li><a href="4shortlistedconferences.html"><i>&#9656;</i> Shortlisted Conferences</a></li>
+
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activities <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="6nss.html"><i>&#9656;</i>  NSS</a></li>
+<li><a href="6ignite.html"><i>&#9656;</i>  Ignite</a></li>
+<li><a href="http://www.klusamyak.in" target="_blank"><i>&#9656;</i>  Samyak</a></li>
+<li><a href="6nemisis.html"><i>&#9656;</i>  NEMSIS</a></li>
+<li><a href="6workshopsorganized.html"><i>&#9656;</i>  Workshops Organized</a></li>
+<li><a href="http://kluniversity.in/cse/focus/Focus%20Home.html" target="_blank"><i>&#9656;</i>  FOCUS Activities</a></li>
+<li><a href="6klucsiactivities.html"><i>&#9656;</i>  KLU CSI Activities</a></li>
+<li><a href="6ceaactivities.html"><i>&#9656;</i> CEA Activites</a></li>
+<li><a href="http://kluniversity.in/kluso/" target="_blank"><i>&#9656;</i>  KLUSO</a></li>
+<li><a href="6webinar.html"><i>&#9656;</i>  Webinar</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="7aboutus.html"><i>&#9656;</i> About Us </a></li>
+<li><a href="7visionandmission.html"><i>&#9656;</i> Vision & Mission</a></li>
+<li><a href="7programeducationalobjectives.html"><i>&#9656;</i>  Program Educational Objectives</a></li>
+<li><a href="7programoutcomes.html"><i>&#9656;</i>  Program Outcomes</a></li>
+<li><a href="7headofdepartment.html"><i>&#9656;</i>  Head of Department</a></li>
+<li class="divider"></li>
+<li class="dropdown-header"><strong>Governance</strong></li>
+<li><a href="7boardofstudies.html"><i>&#9656;</i>  Board of Studies</a></li>
+<li><a href="7rpacbody.html"><i>&#9656;</i>  RPAC Body</a></li>
+<li><a href="7rpacchairmanprofile.html"><i>&#9656;</i>  RPAC Chairman Profile</a></li>
+<li><a href="7academicyearcoordinates.html"><i>&#9656;</i>  Academic Year Coordinates</a></li>
+<li><a href="7coursecoordinates.html"><i>&#9656;</i>  Course Coordinates</a></li>
+<li><a href="pdf/dc1.pdf" target="_blank"><i>&#9656;</i>  Department Level Committees</a></li>
+<li><a href="7organizationstructure.html"><i>&#9656;</i> Organization Structure</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<!--/.nav-collapse -->
+</div>
+<!--/.container-fluid -->
+</nav>
+
+</div>
+
+
+
+<center><P style="background-color: #a12d33;font-size:16px;color:white;"><b>Department of Computer Science & Engineering (DST-FIST Sponsored Department)</b></p></center>
+<div class="ism-slider" data-play_type="loop" data-interval="3000" data-buttons="false" data-radios="false" id="my-slider">
+<ol>
+<li>
+<img src="ism/image/slides/_u/1489677579884_940941.jpg">
+</li>
+<li>
+<img src="ism/image/slides/_u/1489677577962_703952.jpg">
+</li>
+<li>
+<img src="ism/image/slides/_u/1489677573768_578905.jpg">
+</li>
+<li>
+<img src="ism/image/slides/_u/1489677569201_787165.jpg">
+</li>
+<li>
+<img src="ism/image/slides/_u/1489677567877_654790.jpg">
+</li>
+</ol>
+</div>
+<center><P style="background-color: #a12d33;font-size:16px;color:white;"><b>100% Placement Achieved for the Academic Year 2016-17</b></p></center>
+
+<!-- Begin page content -->
+<div class="container">
+<div style="margin-left:20px;margin-right:0px;">
+<div style="border-style: solid;border-color:#a12d33">
+
+<ul class="nav nav-tabs nav-justified" role="tablist">
+<li class="active"><a href="#news" role="tab" data-toggle="tab"><strong>News</strong></a></li>
+<li><a href="#research" role="tab" data-toggle="tab"><strong>Research Bulletin</strong></a></li>
+<li><a href="#events" role="tab" data-toggle="tab"><strong>Events</strong></a></li>
+</ul>
+
+<!-- Tab panes -->
+<div  class="tab-content">
+
+<div style="padding-left: 1cm;padding-right: 1cm;padding-bottom: 1cm;"class="tab-pane active" id="news">
+<div class="panel-body fix-scroll">
+
+<li align="justify"><a href="pdf/Pressnote.pdf" target="_blank">Ms. V Jyothi Surekha, IV B.Tech (CSE) got Mixed Team Event Gold Medal and Women Team Event Silver Medal(Compound Event Archery) in Asian Cup World Ranking Tournament-2016 held at Taipei, Republic of China from 8th to 12th September, 2016. </a></li>
+</br>
+
+<li align="justify"><a href="pdf/e.png" target="_blank">Ms.V.Jyothi Surekha Regd No: 13007288 studying Final Year B.Tech in Computer Science & Engineering won team Gold medal in 11th World University Archery Championship 2016 held at Ulaanbaatar (Mongolia) from 01st to 05th June, 2016,have falicitated by University Management and Staff</a></li>
+</br><li align="justify"><a href="pdf/m.pdf" target="_blank">M.Tech Admissions for the Academic Year 2016-2017</a></li>
+<li align="justify"><a href="win1.html">Ms.V.Jyothi Surekha Regd No: 13007288 studying Final Year B.Tech in Computer Science & Engineering won team Gold medal in 11th World University Archery Championship 2016 held at Ulaanbaatar (Mongolia) from 01st to 05th June, 2016, beat Russia 220 – 228 out of 240 in final.</a></li>
+</br>
+<li align="justify"><a href="win.html">Ms. V Jyothi Surekha, CSE/3rd 13007288 won 2nd Runners up, All India Inter University Archery Championship (M & W) 2015 -16 at Punjab University, Patiyala</a></li>
+</br>
+<li align="justify"><a href="pdf/award.pdf" target="_blank">TCS award for the Best Student-Project of 2014-15 batch was given away to Mr. B. Venkata Ramana, Mr. B. Sai Shashank, Mr. P. Karthik and Mr. B. Ravi Kumar for their project entitled “A Secure Mechanism to Defend Black Hole Intrusion in Cognitive Radio Networks” by Mr V Rajanna, TCS Vice President and Regional Head.</a></li>
+</br>
+<li><a href="pdf/tbs.pdf" target="_blank">Ms.Pujya Sri Jetty bagged TCS BEST STUDENT AWARD for the academic year 2014-2015</a></li>
+</br>
+<li><a href="pdf/tbsp.pdf" target="_blank">CSE Students won TCS BEST STUDENT PROJECT AWARD for the academic year 2013-14</a></li>
+</br>
+<li><a href="pdf/esf.pdf" target="_blank">List of M.Tech (CSE/CNS/CC) I year Students Selected for Internship by eSF Labs Ltd. Hyderabad</a></li>
+</br>
+<li>M.Tech (CSE/CNS/CC) I year Students Selected for Internship by eSF Labs Ltd. Hyderabad held on 9th May 2015 at KL University capmus</li>
+</br>
+<li><a href="pdf/women.pdf" target="_blank">Women’s day celebrations details held on 7-03-2015 </a></li>
+</br><li><a href="pdf/skd.pdf" target="_blank">Report on SKD_GO_GREEN held on 18-03-2015</a></li>
+</br><li><a href="pdf/seat.pdf" target="_blank">Seating  Arrangement for TEST-I III/IV ,IV/IV B.Tech Examination (21-02-2015,23-02-2015)(FN&AN)</a></li>
+</br><li>On 9th and 10th February,2015 KERG(Knowledge Engineering Research Group)has conducted"A two Day Workshop on Enterprise Big Data Analytic's"by Mr.Hidayathulla K Patan</li>
+</br><li><a href="pdf/vivii.pdf" target="_blank">B.Tech VI & VII Semester Assignment Examination Schedule for A.Y 2014-15</a></li>
+</br><li><a href="pdf/4.pdf" target="_blank"> B.Tech IV Sem Test-1 Schedule A.Y 2014-15</a></li>
+</br><li><a href="top.html">Toppers in the Batch who received Gold and Silver Medals</a> </li>
+</br><li><a href="aa.html"> K L University and Department of CSE of KLU have received the prestigious awards from Computer Society of India(CSI) for the year 2013-14.</a> </li>
+</br><li>N.Gopi Nath, V.Pavan Kumar P. Hemanth Krishna are students of IV B.Tech (CSE) doing Internship in fiveperfive .com located at San Francisco, USA</li>
+</br><li>Students of M.Tech CSE & CNS were selected in the YNOT solutions internship on 23-07-2014</li>
+</br><li>CSE Student of KLU Mr.Sarang Ardhapurkar bags 'Best Project' award from TCS.</li>
+</br><li>KLU CSE Team in the Top 15 teams of IBM's TGMC 2012 Contest.</li>
+</div>
+</div>
+<div style="padding-left: 1cm;padding-right: 1cm;padding-bottom: 1cm;" class="tab-pane" id="research">
+
+<div  class="panel-body fix-scroll">
+<li align="justify" >Sanakkayala Satyanarayana, V. Srikanth, B. Naga Jagadesh, K Bhagavan, N. Venkata Madhu Bindu filed a patent on "SYSTEM AND METHOD FOR FAST CONVERGENCE IN IP NETWORKS OF AVOIDING TRANSIENT LOOPS AND PACKET LOSS BY REVERSE SHORTEST PATH TREE USING SPANNING TREE ALGORITHM OF THE GRAPH"</li>
+</br> <li align="justify">Dr.Velagapudi Sreenivas, Dr.S.Satyanarayana, V.S.V.S.S.S.M.Chakradhar  filed a patent on "SYSTEM AND METHOD FOR STRENGTHENING SECURITY OF CLOUD DATA"</li>
+
+
+</br><li align="justify">Ms. Anusha Marouthu, Department of CSE, got an approval of the project entitled "An effective co-operative MAC protocol in multi-channel multi-radio environment of cognitive wireless mesh networks".   Rs. 20,50,000/-  has been sanctioned from Department of Science & Technology, Government of India for three years.</li>
+</br> <li align="justify">Talluri Lakshmi Siva Rama Krishna" Improving Performance of a Distributed File System Using a Speculative Semantics-Based Algorithm",Tsinghua Science And Technology,ISSN :1007-0214l, Volume 20, Number 6 (December-2015) pp.583-593</li>
+</br> <li align="justify">Naresh Varukonda,Dr.B.Thirumala Rao,”A Multilevel Authentication Based On The Rfid Technique  For A Multiple Mobile Cloud User In Cloud Storage: A Survey ”,International Journal of Research and Applications,ISSN :2349-0020, Volume 2, Number 8 (December-2015) pp.371-375</li>
+</br> <li align="justify">Y. Sushmitha,V.Krishna Reddy, D. Pavan Teja Reddy,”A survey on cloud computing security issues”,International Journal of Computer Science and Innovation,ISSN :2458-6528,, Volume 2, Number 2 (December-2015) pp.88-96</li>
+</br> <li align="justify">Y.Prashanth,2.Nakul Sharma,”integrating Natural language processing and software engineering”,International Journal of Software Engineering and Its Applications,ISSN :1738-9984, Volume 9, Number 11 (December-2015) pp.127-136</li>
+</br> <li align="justify">Syed Umar,2.P.V.R.D Prasada Rao,3.G.Sridevi,”Tree Based Energy Balencing Routing Protocol by self organizing in wireless sensor network”international journal of electronics and computer engineering,ISSN:2088-8708,Volume 5, Number 6 (December-2015)pp.1486-1491</li>
+</br><li align="justify">M.Anusha,Dr.V.Srikanth,”Cognitive Radio Networks:A Survey”,international journal of emerging trends& technologies in computer science,ISSN:2278-6856,Volume 4,Number 6(December-2015)pp.94-98.</li>
+</br><li align="justify">P.Vidyulatha,D.Rajeswara Rao,”Rough set Reasoning based classification model generating decision rule on early stage of chronic kidney disease”international journal of advanced research in computer science and management studies,ISSN:2278-6856,Volume4,Number1(January-2016)pp.202-206</li>
+</br> <li align="justify">Rohith N.Divakar,2.deepak v patil,Dr.V.Chandra prakash,” A Soft Computing Approach to improve network performance” Indian journal of science and technology,ISSN: 0974-6846, Volume9,Number2(January-2016)pp.1-8.</li>
+</br> <li align="justify">Rohith N.Divakar,2.deepak v patil,Dr.V.Chandra prakash,” issues in routing mechanisms for packet forwarding:A Survey”international journal of electrical and computer engineering, ISSN: 0974-6846, Volume6,Number1(February-2016)pp.421-430</li>
+</br><li align="justify">Rohith N.Divakar,2.deepak v patil,Dr.V.Chandra prakash,“Study of BGP Convergence time:A Survey”, international journal of electrical and computer engineering,ISSN:0974-6846, Volume6,Number1(February-2016)pp.413-420</li>
+</br><li align="justify">Greeshma.L,Pradeepini.G,”Input split frequent pattern tree using map reduce paradigm in hadoop” ,Journal of theoretical and applied sciences,ISSN:-1992-8645, Volume84,Number2(February-2016)pp.260-271</li>
+</br> <li align="justify">Dr. M Sridevi, Department of CSE, received a projct entitled "Rural Women Technology Park in Tadepalli mandal Vaddeswaram Village" worth Rs. 86,22,977 from DST, Government of India under scheme Science for Equity Empowerment & Development Division (SEED).</li>
+</br> <li align="justify"><a href="pdf/n1.pdf" target="_blank">BoBBA VEERAMALLU (Registered No:10303014) Research Scholar, Koneru Lakshmaiah Education Foundation (KLUniversity), was awarded Doctor of Philosophy (Ph.D.) for the thesis titled "The Security of Constant Cipher Text policy-Attribute Based Encryption using pattern based Algorithm", under the guidance of Dr. K.Rajasekhara Rao, Research Guide, in Computer Science and Engineering.</li></a>
+</br><li align="justify">Dr. V. Chandraprakash, Prof. CSE Department received a grant of Rs. 30,00,000/- from DST Cognitive Science Research Initiative for the project entitled “Development of an Expert System for Career Assessment based on Cognitive Models “.</li>
+</br><li>K.V.D.Kiran, Associate Professor was awarded Doctor of Philosophy (Ph.D.) in Computer Science and Engineering by ANU for the thesis titled "An Amalgam Miniature to risk computation for information security" under the guidance of Dr. L.S.S.Reddy,Vice Chancellor,K.L.University</li>
+</br><li><p align="justify"><a href="pdf/kr.pdf" target="_blank">Dr.SHAIK SHAKEEL AHAMAD​,Dr.L.S.S.REDDY & Dr.V.KRISHNA REDDY​,Filed a Patent on "SYSTEM AND METHOD FOR PROVIDING SECURE TRANSACTIONS WITH SIGNCRYPTION MECHANISM AND MOBILE AGENT TECHNOLOGY​"</a></p></li>
+</br> <li><p align="justify">B.Tirapathi Reddy,M.V.P Chandra sekhar,L.S.S Reddy,V.Krishna Reddy,<br />P.Sai Kiran," A Survey on Assured File Deletion in Cloud Environment",International Journal of Applied Engineering Research,ISSN 0973-4562 Volume 9, Number 23 (2014) pp. 19899-19907</li></p>
+</br><li>Radha k,Dr.B.Thirumala rao,sk.Masthan Babu,K.Thirupathirao,Dr.V.Krishna Reddy,Dr.P.Sai Kiran,” Service level agreements in cloud computing and big data” in IJECE with ISSN: 2088-8708</li>
+</br><li>T.Guna Sekhar,Dr.K.Thirupathi Rao,Dr.V.Krishna Reddy,Dr.P.Sai Kiran,” Mitigation of insider attacks through multi-cloud” in IJECE with ISSN: 2088-8708</li>
+</br> <li>Ravindra ch,Dr.D.Rajeswara Rao,G.Annapurna “A Generalized Association Rule Mining Framework for Pattern Discovery”in IJCSIT with ISSN: 0975-9646</li>
+
+</div>
+</div>
+
+<div style="padding-left: 1cm;padding-right: 1cm;padding-bottom: 1cm;" class="tab-pane" id="events">
+
+<div class="panel-body fix-scroll">
+<li align="justify"><a href="pdf/ReportKER.pdf" target="_blank">A Report on Evolution of IT Architectures by Mr.G.Ravi Kumar, Expert Technologist, Helett-Packard R&D Division, Bangalore  conducted by Knowledge Engineering Research Group on 30.09.2016.</a></li>
+</br><li align="justify"><a href="pdf/ReportonIOTW.pdf" target="_blank">A Report on IOT workshop by G. Mangesh, IBM Mumbai, B. Krishna Chaitanya, IBM Business Partner, Ch. Yuktesh, Community Manager, IBM Hyderabad on 28-10-2016.</a></li>
+</br><li align="justify"><a href="pdf/SE160916.pdf" target="_blank">Report on MODEL-DRIVEN ENGINEEING & SOFTWARE DEVELOPMENT by Dr. Y. Raghu Babu Reddy, Head, SERC, IIIT on 16th September 2016.</a></li>
+</br> <li align="justify"><a href="pdf/NWMESD16Rep.pdf" target="_blank">Report on  MODEL-DRIVEN ENGINEEING & SOFTWARE DEVELOPMENT [NWMESD-16] workshop held on 16th & 17th September 2016</a></li>
+</br><li align="justify"><a href="pdf/ACM.png" target="_blank">ACM Amaravathi Chapter inaugurated by Dr. A Anand Kumar, Principal, College of Engineering on 17.09.2016.  News article published in Eenadu on 18.09.2016 </a></li>
+</br> <li align="justify"><a href="pdf/NWMDESD16.pdf" target="_blank">DST – SERB Sponsored Two Day National Workshop on MODEL-DRIVEN ENGINEEING & SOFTWARE DEVELOPMENT [NWMESD-16] to be held on 16th & 17th September 2016</li></a>
+</br> <li align="justify"><a href="pdf/fdba.pdf" target="_blank">Report on Faculty Development Program on Big Data Analytics, Sponsored by DST,Conducted by  Cloud computing Research Group between 26th April 2016 to 6th May 2016"</li></a>
+</br> <li align="justify"><a href="pdf/3g.pdf" target="_blank">Guest Lecture "3G&4G Mobile Technologies" By Mr. K. Pavan Kanth,. Manager I.T Production System</a></li>
+</br> <li align="justify"><a href="pdf/ccn.pdf" target="_blank">One day Seminar on Computer Communication & Networking held on 12-03-2016 by Dr.Rashmi Ranjan Rout conducted for faculty members of CSE Department</a></li>
+</br><li align="justify"><a href="pdf/pp1.html" target="_blank">One day Seminar on “Parallel Algorithms for Real world Graphs ” by Dr.Kishore Kothapalli conducted for faculty members of CSE Department at KL University  held  on 09-12-2015</a></li>
+
+</br><li align="justify"><a href="pdf/bd.pdf" target="_blank">One day pre conference workshop on Big Data Analytics & its Application(NCBDA 2016) on 17th March, 2016</a></li>
+</br><li align="justify"><a href="http://www.kluniversity.in/cse/sfk/index.html">DST Sponserdred National Conference on "Big Data Analytics and its Applications"(NCBDA 2016) to be held on 18th and 19th March 2016</a></li>
+</br><li align="justify"><a href="pdf/iitm.pdf" target="_blank">A Guest Lecture Report on “Automata Theory and Formal Languages” by Prof. Madhu Mutyam, IITM held on 21st and 24th Dec-2015</a></li>
+</br><li><a href="pdf/rt.pdf" target="_blank">Guest Lecture on: Recent Trends in Data Mining Technologies held on Oct 30th 2015</a></li>
+</br><li><a href="pdf/dba.pdf" target="_blank">Guest Lecture on: Oracle Apps and DBA held on 21st September’15</a></li>
+</br><li><a href="pdf/te.pdf" target="_blank">Guest Lecture on “Towards an Ecosystem of usable Re-factoring Tools” By  Dr. Y. Raghu Reddy held on 2nd September’2015 </a></li>
+</br><li><a href="pdf/sr.pdf" target="_blank">Guest Lecture on “Towards an Ecosystem of usable Re-factoring Tools” By  Dr. Y. Raghu Reddy held on 2nd September’2015 </a></li>
+
+</br><li><a href="pdf/infos.pdf" target="_blank">Guest Lecture by Mr.Pathan Dariya Hussain,Tech.Lead,Infosys held on -21-09-2015</a></li>
+</br><li><a href="pdf/yoga.pdf" target="_blank">Yoga awards of Ms. A. Nikhila</a></li>
+</br><li><a href="pdf/yoga.pdf" target="_blank">Yoga awards of Ms. A. Nikhila</a></li>
+</br><li><a href="pdf/sureka.pdf" target="_blank">International archer Ms. V. Sureka won 3 medals in  Asia cup Stage II archery tournament in Bangkok</a></li>
+</br><li><a href="pdf/qn.pdf" target="_blank">Quarterly News Letter - January to March 2015</a></li>
+</br><li><a href="pdf/15.pdf" target="_blank">Webinars report for March 2015</a></li>
+</br><li><a href="pdf/cns1.pdf" target="_blank">Report on Guest Lecture on Mobile Communications by Mr.Darsi Srinivasa Rao  technical architect of Tech Mahindra on 20-03-2015.</a></li>
+</br><li><a href="pdf/316.pdf" target="_blank">Report on Guest Lecture on Mobile Communications by Mr.Darsi Srinivasa Rao  technical architect of Tech Mahindra on 20-03-2015.</a></li>
+</br><li><a href="pdf/315.pdf" target="_blank">Report on Guest Lecture on Cloud Services by Sri Muni Reddy,IBM on 27-03-2015.</a></li>
+</br><li><a href="pdf/mix.pdf" target="_blank">Report on One day workshop on IBM Blue mix tool held on 18/03/2015</a></li>
+</br><li><a href="pdf/seg.pdf" target="_blank">A workshop on Software Process Improvement by Software Engineering Research Group on 18-03-2015</a> </li>
+</br><li><a href="pdf/eenadu.pdf" target="_blank">A workshop on Software Process Improvement through Capability Maturity Model Integration​</a></li>
+</br><li><a href="pdf/csi.pdf" target="_blank">Report on CSI Project contest held on 9-03-2015</a></li>
+</br><li><a href="cms.html">computer Networks & Security Research Group is organizing a Guest Lecture on Mobile Applications/Wireless Sensor Networks by Dr. Siba Kumar Udgata, Professor, School of Computer & Information Sciences, University of Hyderabad & Director, Centre for Modelling Simulation and Design (CMSD), Hyderabad on 20th Feb 2015</li>
+</br> <li align="justify"><a href="pdf/sdk1.pdf" target="_blank">Report on  "Two Day Workshop on Job Opportunities in the IT Industry and career building in Knowledge Management" held on  20th and 21st January,2015 by KERG (Knowledge Engineering Research Group)</a></li>
+</br><li><a href="pdf/re1.pdf" target="_blank">Report on "CSI-FUNQUIZ-2015"(National Finals)  held on 21-02-2015</a></li>
+</br><li><a href="pdf/sdk.pdf" target="_blank">Report on  A Two Day National Workshop on “ENTERPRISE BIGDATA ANALYICS" on February 09th to 10th 2015</a></li>
+</br><li>Computer Networks & Security Research Group is organizing a Guest Lecture on Mobile Applications/Wireless Sensor Networks by Dr. Siba Kumar Udgata, Professor, School of Computer & Information Sciences, University of Hyderabad & Director, Centre for Modelling Simulation and Design (CMSD), Hyderabad on 20th Feb 2015</li>
+</br> <li><a href="zonal.html">CSI-FUNQUIZ-2015 (A.P State Level) on 14-02-2015</a> </li>
+</br><li><a href="state.html">CSI-FUNQUIZ-2015 (A.P State Zonal Level Prelims) on 11-02-2015</a> </li>
+</br> <li>On 9th and 10th February, 2015 KERG (Knowledge Engineering Research Group) is going to conduct "A two Day Workshop on Enterprise Big Data Analytic's" by Mr.Hidayathulla K Patan.</li>
+</br><li>On 20th and 21st January,2015 KERG (Knowledge Engineering Research Group) has conducted "A Two Day Workshop on Job Opportunities in the IT Industry and career building in Knowledge Management“by Mr. Ravi Kiran,Director of Knowledge Management,Ms. Vasantha Geetha, Knowledge Expert,SAP Labs,Mr.Tarun Kumar,CEO of GLOCAL Technology Solutions (GTS).</li>
+</br><li><a href="skd.html">On 8th January 2015 SKD(Society for Knowledge Discovery)Club of KERG (Knowledge Engineering Research Group) has conducted the following Events</a></li>
+</br><li>A one day workshop on Cloud with Open Stack on 6th December’2014 <br />for M.Tech CSE Cloud Computing first year students.Mr.S.Muni Reddy,<br />Sr.Manager,IBM Research Labs,Banglore</li>
+</br><li>On 1st November,2014 SKD(Society for Knowledge Discovery) Club of KERG(Knowledge Engineering Research Group)  was Lanched</li>
+</br><li>One day Guest Lecture on An Interaction Session on Outreach - To Enhance Research by Dr. Rama Subba Reddy, Professor and Dr. Rama Krishna Pasumarthy, Asst.Professor from IIT-Madras, Chennai on 17.10.2014</li>
+</br><li>One day Guest Lecture by Dr. Madhu Mutyam, Asst, Professor, IIT, Madras held on 11.08.2014</li>
+</br><li>One day Guest Lecture on C Programming Concepts by Mr.Muni Reddy,Sr.Manager,IBM Research Labs-Bengaluru held on 11.08.2014 from 10.30 AM to 12.00 Noon</li>
+</br><li>One day Guest Lecture on Mobile Computing and MS Program in US by Dr. Nelakuditi Sri Hari, Professor and Graduate Director, University of South Carolina held on 1.08.2014</li>
+</br><li>One day workshop on IBM Blue mix tool held on 17.07.2014</li>
+</br><li>One day Orientation Programme on Current Technologies by Siri IT Innovations Pvt.Ltd. held on 21.07.2014</li>
+</br><li>IEEE International conference WOCN (Wireless Optical Communication Networks) 2014 from September 11-13, 2014.</li>
+</br><li>One day Orientation program on “Joy of Engineering“ by Prof.KVSG Murali Krishna as a resource person from JNTUK Kakinada,on 18-07-2014 from 9am to 5pm at peacock hall</li>
+
+</div>
+</div>
+</div>
+</div>
+
+<div style="height:100px">
+</div>
+
+
+
+
+<div class="container">
+
+    
+  <div class="img-line" id="img-line">
+  <h4>Industrial Collaborated Labs</h4>
+  <hr/>
+    <a href="http://www.kluniversity.in/mic.aspx"><img src="img/labs/microsoft.jpg" class="img-responsive" /></a>
+    <a href="http://www.kluniversity.in/ibm/index.html"><img src="img/labs/ibm.jpg" class="img-responsive" /></a>
+    <img src="img/labs/oracle.jpg" class="img-responsive" />
+     <a href="http://www.kluniversity.in/cisco.aspx"><img src="img/labs/cisco.png" class="img-responsive" /></a>
+  </div>
+  
+
+  <div class="img-line" id="img-line1">
+  <h4>Research Groups</h4>
+  <hr />
+    <img src="img/research/cloud.jpg" class="img-responsive" />
+    <a href="http://www.kluniversity.in/cse/sea_club/index.html"><img src="img/research/sea.jpg" class="img-responsive" />
+    <img src="img/research/cns.jpg" class="img-responsive" />
+    <a href="http://www.kluniversity.in/cse/sfk/index.html"><img src="img/research/KE1.jpg" class="img-responsive" /></a>    
+  </div>
+
+    
+  <div class="img-line" id="img-line2">
+  <h4>Student Bodies</h4>
+
+  <hr />
+     <!--<a href="https://www.facebook.com/pages/K-L-University-CSE/772575242762113" target="_blank"><img src="images/f.jpg" class="img-responsive" /></a>-->
+     <a href="focus/Focus%20Home.html"><img src="img/bodies/f1.jpg" class="img-responsive" /></a>
+    <img src="img/bodies/csi.jpg" class="img-responsive" />
+    <a href="http://kluniversity.in/kluso/"><img src="img/bodies/kluso.jpg" class="img-responsive" /></a>
+    <a href="ceacse.html"><img src="img/bodies/cea.jpg" class="img-responsive" /></a>
+        
+  </div>
+  
+
+</div>
+
+<!--icons-->
+
+
+
+</div>
+</div>
+<div id="footer1">
+<center><p style="background-color: #a12d33;font-size:16px;color:white;"><a style="color:white" href="http://yaswanthreddy.tech/">&copy;</a> 2017 Copyright Reserved by<b> <a style="color:white" href="http://www.kluniversity.in">K L University</a></b> </p> 
+</center>
+</div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="./dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+<script type='text/javascript'>
+var isCtrl = false;
+document.onkeyup=function(e)
+{
+    if(e.which == 17)
+    isCtrl=false;
+}
+document.onkeydown=function(e)
+{
+    if(e.which == 17)
+    isCtrl=true;
+    if((e.which == 85) || (e.which == 67) && (isCtrl == true))
+    {
+        return false;
+    }
+}
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+    return false;
+}
+function mousehandler(e){
+    var myevent = (isNS) ? e : event;
+    var eventbutton = (isNS) ? myevent.which : myevent.button;
+    if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+</script>
+<script language="JavaScript">
+        function disableCtrlKeyCombination(e)
+        {
+                //list all CTRL + key combinations you want to disable
+                var forbiddenKeys = new Array("a", "s", "c");
+                var key;
+                var isCtrl;
+
+                if(window.event)
+                {
+                        key = window.event.keyCode;     //IE
+                        if(window.event.ctrlKey)
+                                isCtrl = true;
+                        else
+                                isCtrl = false;
+                }
+                else
+                {
+                        key = e.which;     //firefox
+                        if(e.ctrlKey)
+                                isCtrl = true;
+                        else
+                                isCtrl = false;
+                }
+
+                //if ctrl is pressed check if other key is in forbidenKeys array
+                if(isCtrl)
+                {
+                    for (i = 0; i < forbiddenKeys.length; i++)
+                        {
+                                //case-insensitive comparation
+                            if (forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
+                                {
+//                                    alert("Key combination CTRL + "
+//                                                + String.fromCharCode(key)
+//                                                + " has been disabled.");                                    
+                                        return false;
+                                }
+                        }
+                }
+                return true;
+        }
+		//design and developed by yaswanth reddy manukonda
+    </script>
+
+</body>
+</html>

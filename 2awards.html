@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="ism/css/my-slider.css"/>
+<script src="ism/js/ism-2.2.min.js"></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="./favicon.ico">
+
+<title>Dept of CSE</title>
+
+<link href="./dist/img.css" rel="stylesheet" type="text/css" >
+<!-- Bootstrap core CSS -->
+<link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="sticky-footer-navbar.css" rel="stylesheet">
+<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+<!--[if lt IE 9]><script src="./assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<script src="./assets/js/ie-emulation-modes-warning.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);">
+
+<!-- Fixed navbar -->
+<div class="container example5">
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar5">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="http://kluniversity.in"><img style="	height:65px;width: 80px;" src="./logo.png" alt="K L U "><strong>K L University</strong> </a>
+</div>
+<div id="navbar5" class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-right">
+<li class="active"><a href="./index.html">CSE-Home</a></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academics <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="1academiccalendar.html"><i>&#9656;</i>  Academic Calender</a></li>
+<li><a href="1academicprograms.html"><i>&#9656;</i>  Academic Programs</a></li>
+<li><a href="1btechcse.html"> <i>&#9656;</i> B.Tech CSE</a></li>
+<li><a href="1mtechcse.html"> <i>&#9656;</i> M.Tech CSE</a></li>
+<li><a href="1mtechcns.html"><i>&#9656;</i>  M.Tech CNS</a></li>
+<li><a href="1mtechcc.html"> <i>&#9656;</i> M.Tech CC</a></li>
+<li><a href="1mtechci.html"><i>&#9656;</i> M.Tech CI</a></li>
+<li><a href="1mtechcsdf.html"><i>&#9656;</i> M.Tech CSDF</a></li>
+<li><a href="1certificatecourse.html"><i>&#9656;</i>  Certificate Course</a></li>
+<li><a href="1collaborations.html"> <i>&#9656;</i> Collaborations</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Faculty <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="2facultylist.html"><i>&#9656;</i>  Faculty List</a></li>
+<li><a href="2phd.html"><i>&#9656;</i>  Ph.D Holders</a></li>
+<li><a href="2visitingforeignfaculty.html"><i>&#9656;</i> Visiting Foreign Faculty</a></li>
+<li><a href="2awards.html"><i>&#9656;</i>  Awards & Recognition</a></li>
+<li><a href="2sponsoredprojects.html"><i>&#9656;</i>  Sponsored Projects</a></li>
+<li><a href="2facultydevelopementprogram.html"><i>&#9656;</i>  Faculty Development Programs</a></li>
+
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Infrastructure <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="5departmentlibrary.html"><i>&#9656;</i>  Department Library</a></li>
+<li><a href="5industrycollaborationlabs.html"><i>&#9656;</i>  Industry Collaborations Labs</a></li>
+<li><a href="5academiclabs.html"><i>&#9656;</i>  Academiv Labs</a></li>
+<li><a href="5softwaresavailable.html"><i>&#9656;</i>  Softwares Available</a></li>
+<li><a href="5datacenter.html"><i>&#9656;</i> Data Center</a></li>
+
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Student Progression <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="3placements.html"><i>&#9656;</i> Placements</a></li>
+<li><a href="3higherstudies.html"><i>&#9656;</i> Higher Studies</a></li>
+<li><a href="3practiseschool.html"><i>&#9656;</i>  Practise School</a></li>
+<li><a href="3sportsachievements.html"><i>&#9656;</i>  Sports Achievements</a></li>
+<li><a href="3alumni.html"><i>&#9656;</i>  Alumni</a></li>
+<li class="divider"></li>
+<li class="dropdown-header"><strong>Current Students</strong></li>
+<li><a href="https://www.kluniversity.in/es.aspx?id=10001" target="_blank"><i>&#9656;</i>  Results</a></li>
+<li><a href="3termpaper.html"><i>&#9656;</i>  Term Paper</a></li>
+
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span >&#9662;</span></a>
+<ul class="dropdown-menu ">
+<li><a href="4academicresearcchprograms.html"><i>&#9656;</i>  Academic Research Programs</a></li>
+
+<li><a href="4researchgroups.html"><i>&#9656;</i>  Research Groups</a></li>
+<li><a href="4rpac.html"><i>&#9656;</i> RPAC</a></li>
+<li><a href="4rpacchairman.html"><i>&#9656;</i> RPAC Chairman Profile</a></li>
+<li><a href="4researchnews.html"><i>&#9656;</i>  Research News</a></li>
+<li><a href="4researchlabs.html"><i>&#9656;</i> Research Labs</a></li>
+<li><a href="4researchpublications.html"><i>&#9656;</i>  Research Publications</a></li>
+<li><a href="4researchareas.html"><i>&#9656;</i>  Research Areas</a></li>
+
+<li><a href="4journalreview.html"><i>&#9656;</i>  Journal Reviewers</a></li>
+<li><a href="4internationalconference.html"><i>&#9656;</i>  International Conference</a></li>
+<li><a href="4patent.html"><i>&#9656;</i>  Patent</a></li>
+
+<li><a href="./pdf/2133.pdf" target="_blank"><i>&#9656;</i> Pre Ph.D Subjects & Syllabus</a></li>
+<li><a href="4shortlistedjournals.html"><i>&#9656;</i> Shortlisted Journals</a></li>
+<li><a href="4shortlistedconferences.html"><i>&#9656;</i> Shortlisted Conferences</a></li>
+
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activities <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="6nss.html"><i>&#9656;</i>  NSS</a></li>
+<li><a href="6ignite.html"><i>&#9656;</i>  Ignite</a></li>
+<li><a href="http://www.klusamyak.in" target="_blank"><i>&#9656;</i>  Samyak</a></li>
+<li><a href="6nemisis.html"><i>&#9656;</i>  NEMSIS</a></li>
+<li><a href="6workshopsorganized.html"><i>&#9656;</i>  Workshops Organized</a></li>
+<li><a href="http://kluniversity.in/cse/focus/Focus%20Home.html" target="_blank"><i>&#9656;</i>  FOCUS Activities</a></li>
+<li><a href="6klucsiactivities.html"><i>&#9656;</i>  KLU CSI Activities</a></li>
+<li><a href="6ceaactivities.html"><i>&#9656;</i> CEA Activites</a></li>
+<li><a href="http://kluniversity.in/kluso/" target="_blank"><i>&#9656;</i>  KLUSO</a></li>
+<li><a href="6webinar.html"><i>&#9656;</i>  Webinar</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span >&#9662;</span></a>
+<ul class="dropdown-menu">
+<li><a href="7aboutus.html"><i>&#9656;</i> About Us </a></li>
+<li><a href="7visionandmission.html"><i>&#9656;</i> Vision & Mission</a></li>
+<!--<li><a href="7programeducationalobjectives.html"><i>&#9656;</i>  Program Educational Objectives</a></li>
+<li><a href="7programoutcomes.html"><i>&#9656;</i>  Program Outcomes</a></li>-->
+<li><a href="7headofdepartment.html"><i>&#9656;</i>  Head of Department</a></li>
+<li class="divider"></li>
+<li class="dropdown-header"><strong>Governance</strong></li>
+<li><a href="7boardofstudies.html"><i>&#9656;</i>  Board of Studies</a></li>
+<li><a href="7rpacbody.html"><i>&#9656;</i>  RPAC Body</a></li>
+<li><a href="7rpacchairmanprofile.html"><i>&#9656;</i>  RPAC Chairman Profile</a></li>
+<li><a href="7academicyearcoordinates.html"><i>&#9656;</i>  Academic Year Coordinates</a></li>
+<li><a href="7coursecoordinates.html"><i>&#9656;</i>  Course Coordinates</a></li>
+<li><a href="pdf/dc1.pdf" target="_blank"><i>&#9656;</i>  Department Level Committees</a></li>
+<li><a href="7organizationstructure.html"><i>&#9656;</i> Organization Structure</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<!--/.nav-collapse -->
+</div>
+<!--/.container-fluid -->
+</nav>
+
+</div>
+
+<center><P style="background-color: #a12d33;font-size:16px;color:white;"><b>Department of Computer Science & Engineering (DST-FIST Sponsored Department)</b></p></center>
+
+
+
+
+<div class="ism-slider" data-play_type="loop" data-interval="3000" data-buttons="false" data-radios="false" id="my-slider">
+<ol>
+<li>
+<img src="ism/image/slides/_u/1489677579884_940941.jpg">
+</li>
+<li>
+<img src="ism/image/slides/_u/1489677577962_703952.jpg">
+</li>
+<li>
+<img src="ism/image/slides/_u/1489677573768_578905.jpg">
+</li>
+<li>
+<img src="ism/image/slides/_u/1489677569201_787165.jpg">
+</li>
+<li>
+<img src="ism/image/slides/_u/1489677567877_654790.jpg">
+</li>
+</ol>
+</div>
+<!-- Begin page content -->
+<div class="container">
+<div style="margin-left:20px;margin-right:0px;">
+<div class="page-header">
+<h3>Awards & Recognisations</h3>
+</div>
+<table class="table  table-bordered table-striped table-hover">
+<tr>
+		<td><b>S.No</b></td>
+		<td><b>Name of the Faculty</b></td>
+		<td><b>Title of the Award</b></td>
+		<td><b>Instituted by</b></td>
+		<td><b>Year</b></td>
+			</tr>
+
+<tr>
+		<td align="center">1</td>
+		<td>Dr.B.Naga Jagadesh</td>
+		<td>Young Researcher</td>
+		<td>IBCB</td>
+		<td align="center">2016-17</td>
+			</tr>
+
+
+
+
+	<tr>
+		<td align="center">2</td>
+		<td>Dr.G.Rama Krishna</td>
+		<td>Chapter Patron Award</td>
+		<td>Computer Society of India</td>
+		<td align="center">2015-16</td>
+			</tr>
+	<tr>
+		<td align="center">3</td>
+		<td>Dr.K.V.D.Kiran</td>
+		<td>Significant Contribution Award </td>
+		<td>Computer Society of India</td>
+		<td align="center">2015-16</td>
+	</tr>
+	<tr>
+		<td align="center">4</td>
+		<td>Dr.V.Krishna Reddy</td>
+		<td>Active Participation Award-Young Male Member </td>
+		<td>Computer Society of India</td>
+		<td align="center">2015-16</td>
+		
+	</tr>
+	<tr>
+		<td align="center">5</td>
+		<td>Ms.V.Divya</td>
+        <td>Active Participation Award-Young Woman Member</td>
+		<td>Computer Society of India</td>
+		<td align="center">2015-16</td>
+		
+	</tr>
+
+    <tr>
+		<td align="center">6</td>
+		<td>K.Raja Sekhar</td>
+		<td>Best TGMC Mentor Award</td>
+		<td>IBM</td>
+		<td align="center">2014-15</td>
+		
+	</tr>
+
+
+
+
+
+	<tr>
+		<td align="center">7</td>
+		<td>Dr.L S S Reddy</td>
+		<td>Chapter Patron Award</td>
+		<td>Computer Society of India</td>
+		<td align="center">2014-15</td>
+		
+	</tr>
+	<tr>
+		<td align="center">8</td>
+		<td>Mr. A.V. Praveen Krishna</td>
+		<td>Longest Continuous Student Branch Counselor Award</td>
+		<td>Computer Society of India</td>
+		<td align="center">2014-15</td>
+		
+	</tr>
+	<tr>
+		<td align="center">9</td>
+		<td>Mr.T.Pavan Kumar</td>
+		<td>Significant Contribution Award</td>
+		<td>Computer Society of India</td>
+		<td align="center">2014-15</td>
+		
+	</tr>
+	<tr>
+		<td align="center">10</td>
+		<td>Mr.K.Raju</td>
+		<td>Active Participation Award–Young Male Member&nbsp;</td>
+		<td>Computer Society of India</td>
+		<td align="center">2014-15</td>
+		
+	</tr>
+
+    <tr>
+		<td align="center">11</td>
+		<td>A.Vijay Kumar</td>
+		<td>Outstanding Effort & Support, NNSC</td>
+		<td>IIT, Delhi</td>
+		<td align="center">2013-14</td>
+		
+	</tr>
+
+
+    <tr>
+		<td align="center">12</td>
+		<td>K.Venkata Raju</td>
+		<td>Outstanding Effort & Support, NNSC</td>
+		<td>IIT, Delhi</td>
+		<td align="center">2013-14</td>
+		
+	</tr>
+
+      <tr>
+		<td align="center">13</td>
+		<td>M.Vishnu Vardhan</td>
+		<td>World’s foremost Achiever</td>
+		<td>Marquis Who’s Who in the World</td>
+		<td align="center">2013-14</td>
+		
+	</tr>
+
+  <tr>
+		<td align="center">14</td>
+		<td>A.Vijay Kumar</td>
+		<td>Best Mentor Award</td>
+		<td>IBM</td>
+		<td align="center">2013-14</td>
+		
+	</tr>
+
+    <tr>
+		<td align="center">15</td>
+		<td>Dr.V.Srikanth</td>
+		<td>Chapter Patron Award</td>
+		<td>CSI- Computer Society of India</td>
+		<td align="center">2012-13</td>
+		
+	</tr>
+    
+    <tr>
+		<td align="center">16</td>
+		<td>M.Sreedevi</td>
+		<td>Active Participation Award</td>
+		<td>CSI- Computer Society of India</td>
+		<td align="center">2012-13</td>
+		
+	</tr>
+    
+    <tr>
+		<td align="center">17</td>
+		<td>A.V.Praveen Krishna</td>
+		<td>Longest Continuous SBC Award</td>
+		<td>CSI- Computer Society of India</td>
+		<td align="center">2012-13</td>
+		
+	</tr>
+    
+    <tr>
+		<td align="center">18</td>
+		<td>Y.Prasanth</td>
+		<td>Active Participation Award</td>
+		<td>CSI- Computer Society of India</td>
+		<td align="center">2012-13</td>
+		
+	</tr>
+
+	<tr>
+		<td align="center">19</td>
+		<td>Dr.J.K R Sastry</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2012-13</td>
+		
+	</tr>
+	<tr>
+		<td align="center">20</td>
+		<td>T.Ravi Kumar</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2011-12</td>
+	
+	</tr>
+	<tr>
+		<td align="center">21</td>
+		<td>Dr.J.K R Sastry</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2011-12</td>
+		
+	</tr>
+	<tr>
+		<td align="center">22</td>
+		<td>Mr P. Satyanarayana</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2011-12</td>
+		
+	</tr>
+	<tr>
+		<td align="center">23</td>
+		<td>T.Ravi Kumar</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2010-11</td>
+		
+	</tr>
+	<tr>
+		<td align="center">24</td>
+		<td>Dr.J.K R Sastry</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2010-11</td>
+		
+	</tr>
+	<tr>
+		<td align="center">25</td>
+		<td>CH.Radika Rani</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2010-11</td>
+		
+	</tr>
+	<tr>
+		<td align="center">26</td>
+		<td>T.Pavan Kumar</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2010-11</td>
+		
+	</tr>
+	<tr>
+		<td align="center">27</td>
+		<td>K.V.D.Kiran</td>
+		<td>Drona Award</td>
+		<td>IBM TGMC</td>
+		<td align="center">2010-11</td>
+		
+	</tr>
+	<tr>
+		<td align="center">28</td>
+		<td>S.Srinivasa Rao</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2010-11</td>
+		
+	</tr>
+	<tr>
+		<td align="center">29</td>
+		<td>M.Vishnu Vardhan</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2010-11</td>
+		
+	</tr>
+	<tr>
+		<td align="center">30</td>
+		<td>Dr.S.Venkateswarulu</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2010-11</td>
+		
+	</tr>
+	<tr>
+		<td align="center">31</td>
+		<td>Dr. K.Subramanyam</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2010-11</td>
+		
+	</tr>
+	<tr>
+		<td align="center">32</td>
+		<td>Dr.J.K R Sastry</td>
+		<td>Best Teacher award</td>
+		<td>KL University</td>
+		<td align="center">2009-11</td>
+		
+	</tr>
+
+</table>
+
+
+</div>
+</div>
+</div>
+
+<div style="height:100px">
+</div>
+
+
+
+<div id="footer1">
+<center><p style="background-color: #a12d33;font-size:16px;color:white;"><a style="color:white" target="_blank"href="http://yaswanthreddy.tech/">&copy;</a> 2017 Copyright Reserved by<b> <a style="color:white" href="http://www.kluniversity.in">K L University</a></b> </p> 
+</center>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="./dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+<script type='text/javascript'>
+var isCtrl = false;
+document.onkeyup=function(e)
+{
+    if(e.which == 17)
+    isCtrl=false;
+}
+document.onkeydown=function(e)
+{
+    if(e.which == 17)
+    isCtrl=true;
+    if((e.which == 85) || (e.which == 67) && (isCtrl == true))
+    {
+        return false;
+    }
+}
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+function mischandler(){
+    return false;
+}
+function mousehandler(e){
+    var myevent = (isNS) ? e : event;
+    var eventbutton = (isNS) ? myevent.which : myevent.button;
+    if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+</script>
+<script language="JavaScript">
+        function disableCtrlKeyCombination(e)
+        {
+                //list all CTRL + key combinations you want to disable
+                var forbiddenKeys = new Array("a", "s", "c");
+                var key;
+                var isCtrl;
+
+                if(window.event)
+                {
+                        key = window.event.keyCode;     //IE
+                        if(window.event.ctrlKey)
+                                isCtrl = true;
+                        else
+                                isCtrl = false;
+                }
+                else
+                {
+                        key = e.which;     //firefox
+                        if(e.ctrlKey)
+                                isCtrl = true;
+                        else
+                                isCtrl = false;
+                }
+
+                //if ctrl is pressed check if other key is in forbidenKeys array
+                if(isCtrl)
+                {
+                    for (i = 0; i < forbiddenKeys.length; i++)
+                        {
+                                //case-insensitive comparation
+                            if (forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
+                                {
+//                                    alert("Key combination CTRL + "
+//                                                + String.fromCharCode(key)
+//                                                + " has been disabled.");                                    
+                                        return false;
+                                }
+                        }
+                }
+                return true;
+        }
+    </script>
+
+</body>
+</html>
